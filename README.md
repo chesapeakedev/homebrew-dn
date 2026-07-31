@@ -24,13 +24,15 @@ brew upgrade dn
 
 ## Formula updates
 
-After a `dn` GitHub release publishes binaries, bump this formula from the `dn`
-repository:
+The `dn` Release Binary workflow updates `Formula/dn.rb` automatically after
+each release (requires `HOMEBREW_TAP_TOKEN` on `chesapeakedev/dn`).
+
+Manual recovery from a collocated `dn` checkout:
 
 ```bash
-# from chesapeakedev/dn
 deno run -A scripts/bump_homebrew_formula.ts --version 0.0.35
+cd ../homebrew-dn
+git add Formula/dn.rb
+git commit -m "dn 0.0.35"
+git push
 ```
-
-That script updates `Formula/dn.rb` in a collocated `../homebrew-dn` checkout
-(or `HOMEBREW_DN_TAP`) using checksums from the GitHub release.
