@@ -16,12 +16,12 @@ class Dn < Formula
     on_arm do
       url "https://github.com/chesapeakedev/dn/releases/download/v#{version}/dn-macos-arm64",
           using: :nounzip
-      sha256 "3871d74cc49df02923dce3443b2116e33ad01f0474625bf689109fc2a393b1ac"
+      sha256 "ab5717c6f67b47f42f5358cca8e0dc55012f63e6b6a25cf84566fb71b0b65f46"
     end
     on_intel do
       url "https://github.com/chesapeakedev/dn/releases/download/v#{version}/dn-macos-x64",
           using: :nounzip
-      sha256 "2b8fe65f2f27b10b73050510575b0012d56209623c4f74b947f708055a7893e3"
+      sha256 "ab4beb762f7474a583ebc40c5815aea3d2ef8683c228aa67445837d40603e40a"
     end
   end
 
@@ -29,12 +29,12 @@ class Dn < Formula
     on_arm do
       url "https://github.com/chesapeakedev/dn/releases/download/v#{version}/dn-linux-arm64",
           using: :nounzip
-      sha256 "3d76b70e1a9a0fe67af2697edcfec5d0ac6a2aeb26ea8cdaa60e5c1f6ac8e021"
+      sha256 "86946263de6b0e6ca55841bad629e67ec5f7fc2f8456e6f95a258537a4651cfc"
     end
     on_intel do
       url "https://github.com/chesapeakedev/dn/releases/download/v#{version}/dn-linux-x64",
           using: :nounzip
-      sha256 "af03f25e769124243f38b9ec300adc172034e668e8c9e0bbeef30caada11b845"
+      sha256 "2a6fdd9bdfc8dba9a30b48febb74c7d62d4f7e3a215b543a6da5aced6ae904f7"
     end
   end
 
