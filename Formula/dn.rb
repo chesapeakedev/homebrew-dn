@@ -4,7 +4,7 @@
 class Dn < Formula
   desc "CLI for working systematically alongside coding agents"
   homepage "https://docs.denoise.cloud/dn-cli/installation/"
-  version "0.0.45"
+  version "0.0.46"
   license "Apache-2.0"
 
   livecheck do
@@ -16,12 +16,12 @@ class Dn < Formula
     on_arm do
       url "https://github.com/chesapeakedev/dn/releases/download/v#{version}/dn-macos-arm64",
           using: :nounzip
-      sha256 "5ded250c133ab238cdbc1081358250a2e8ba00c0673928ce799ef708e6ff3713"
+      sha256 "8ad8fd7e3ffce9fedfdde73b714a492e211bd21f3c784f72ca604827a607eb7a"
     end
     on_intel do
       url "https://github.com/chesapeakedev/dn/releases/download/v#{version}/dn-macos-x64",
           using: :nounzip
-      sha256 "396466a9d4744c168beb8eb2b7ff24c2e01287d0a30a6c583a581fde542d7f33"
+      sha256 "450facbe1ef7882586c9fbf974c8afccf28960c1e24652a3f7291102e4a8afc4"
     end
   end
 
@@ -29,12 +29,12 @@ class Dn < Formula
     on_arm do
       url "https://github.com/chesapeakedev/dn/releases/download/v#{version}/dn-linux-arm64",
           using: :nounzip
-      sha256 "62fa49915e16f57618bbf872a2b9ebf12d6d396bb53437a835486c5c6eb00626"
+      sha256 "006c3641f896119ad89614042ae91b11f56db63d1027f084dd96756262a5314d"
     end
     on_intel do
       url "https://github.com/chesapeakedev/dn/releases/download/v#{version}/dn-linux-x64",
           using: :nounzip
-      sha256 "240fc302a498c972b2c449df0b1be5f26fc5b90d7c6909670521c507ed5bddb9"
+      sha256 "e2be428922d3fd695efb55a70c2cec514ccc3c0bd1e0b37af97172f452a70ee3"
     end
   end
 
